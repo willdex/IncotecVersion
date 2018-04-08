@@ -14,6 +14,14 @@
 
         <?php if(Auth::user()->privilegio == 0): ?>
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
             <div class="col-lg-6">
 
                 <?php  $sql = DB::select('SELECT nombre, convocatoria.idpublic, titulo, descripcion, fecha, fecha_ad FROM convocatoria, categoria, prov_conv WHERE convocatoria.idpublic=prov_conv.idpublic and convocatoria.idcat=categoria.idcat and prov_conv.id='.Auth::user()->id. ' Order by fecha_ad DESC LIMIT 5'); ?>
@@ -140,9 +148,13 @@
                     <div class="icon">
                       <i class="fa fa-file-text-o" aria-hidden="true"></i>
                     </div>
+<<<<<<< HEAD
                     <a href="<?php echo URL::to('convocatoriasactivas'); ?>" class="small-box-footer" style="font-size: 17px;">Ver Todas <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
 
                     <!--a href="<?php echo URL::to('convocatoriasactivas'); ?>" class="small-box-footer" style="font-size: 17px;" data-toggle="modal" data-target="#ModalAdjuntar">Ver Todas <i class="fa fa-plus-circle" aria-hidden="true"></i></a-->
+=======
+                    <a href="<?php echo URL::to('convocatoriasactivas'); ?>" class="small-box-footer" style="font-size: 17px;" data-toggle="modal" data-target="#ModalAdjuntar">Ver Todas <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
                   </div>
                   
                 </div>

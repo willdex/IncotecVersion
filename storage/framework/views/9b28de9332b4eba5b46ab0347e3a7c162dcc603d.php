@@ -30,7 +30,11 @@
               <tbody align="center" id="body_empresa">          
               <?php foreach($prov as $user): ?>
               <tr>
+<<<<<<< HEAD
   <td style="font-size: 15px;"><?php echo e($user->proveedor); ?> </td>          
+=======
+                <td style="font-size: 15px;"><?php echo e($user->proveedor); ?></td>          
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
                 <td style="font-size: 15px;"><?php echo e($user->correo); ?></td>
                 <td style="font-size: 15px;"><?php echo e($user->telefono); ?></td>
                 <td style="font-size: 15px;"><?php echo e($user->direccion); ?></td>
@@ -42,7 +46,10 @@
       <div class="pull-left"> <?php echo $prov->render(); ?>  </div>
 
       </div>
+<<<<<<< HEAD
   <button class='btn btn-primary' style="font-size: 14px; background-color: green;" data-toggle="modal" data-target="#modalAcceso" >Enviar Acceso</button>
+=======
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
     </div>
   </div>
 

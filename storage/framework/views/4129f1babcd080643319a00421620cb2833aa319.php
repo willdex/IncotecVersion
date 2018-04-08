@@ -8,9 +8,15 @@
 		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 			<h3>Listado de Proveedores <a href="registrosproveedor/create"><button class="btn btn-success">Nuevo</button></a></h3>
 			<?php echo $__env->make('registrosproveedor.search', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<<<<<<< HEAD
 			<?php echo $__env->make('alerts.success', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
           	<?php echo $__env->make('alerts.errors', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 		</div>
+=======
+    			<?php echo $__env->make('alerts.success', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                <?php echo $__env->make('alerts.errors', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                		</div>
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
  
 	</div> 
 	
@@ -43,12 +49,19 @@
 							<a href="<?php echo e(URL::action('RegistrosProveedorController@edit',$pro->id)); ?>"><button class="btn btn-primary">Editar</button></a>
 						<?php endif; ?>
 							<button class='btn btn-primary' style="font-size: 14px; background-color: green;" data-toggle="modal" data-target="#ModalAdjuntarCat" data-id="<?php echo e($pro->id); ?>" data-p="<?php echo e($pro->proveedor); ?>">ADD Categoria</button>
+<<<<<<< HEAD
 							
 							<a href="" data-target="#modal-delete-<?php echo e($pro->id); ?>" data-toggle="modal"><button class="btn btn-danger">Eliminar</button></a>
 
 							
 
 							
+=======
+
+
+							<a href="" data-target="#modal-delete-<?php echo e($pro->id); ?>" data-toggle="modal"><button class="btn btn-danger">Eliminar</button></a>
+							 
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
 						</td>
 					
 					</tr>
@@ -62,8 +75,13 @@
 	</div>
 	<?php echo Html::script('js/jsmodal.js'); ?>
 
+<<<<<<< HEAD
 	<script src="/js/laravel.js"></script>
 
 
 <?php $__env->stopSection(); ?>
+=======
+<?php $__env->stopSection(); ?>
+
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
 <?php echo $__env->make('layouts.cpanelp', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

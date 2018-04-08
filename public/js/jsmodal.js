@@ -111,4 +111,7 @@ $('#btnAdjudicarCancelarP').click(function() {
 });
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af

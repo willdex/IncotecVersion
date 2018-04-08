@@ -21,7 +21,11 @@
       
 
                   {!!Form::label('titulo2','Título:')!!}
+<<<<<<< HEAD
                   <input type="text" class="form-control" name="titulo" id="asunto" readonly="readonly">
+=======
+                  <input type="text" class="form-control" name="titulo" id="asunto" >
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
                   <br>
 
                   
@@ -82,4 +86,7 @@
     </div>
   </div>
 </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af

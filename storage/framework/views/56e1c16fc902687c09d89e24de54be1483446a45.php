@@ -124,7 +124,11 @@
             <li class="treeview">
               <a href="<?php echo URL::to('escritorio'); ?>">
                 <i class="fa fa-tachometer" aria-hidden="true"></i>
+<<<<<<< HEAD
                 <span>ESCRITORIO</span>
+=======
+                <span>DASHBOARD</span>
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
               </a>
             </li> 
              
@@ -139,9 +143,15 @@
               
              
               <ul class="treeview-menu">
+<<<<<<< HEAD
                  <li><a href="<?php echo URL::to('convocatoriasaprobadas'); ?>"><i class="fa fa-shopping-cart"></i> Adjudicadas </a></li>
                 <li><a href="<?php echo URL::to('convocatoriasactivas'); ?>"><i class="fa fa-thumbs-up"></i> Activas </a></li>
                 <li><a href="<?php echo URL::to('convocatoriasinactivas'); ?>"><i class="fa fa-thumbs-down"></i> Inactivas </a></li>
+=======
+                 <li><a href="<?php echo URL::to('convocatoriasaprobadas'); ?>"><i class="fa fa-circle-o"></i> Adjudicadas </a></li>
+                <li><a href="<?php echo URL::to('convocatoriasactivas'); ?>"><i class="fa fa-circle-o"></i> Activas </a></li>
+                <li><a href="<?php echo URL::to('convocatoriasinactivas'); ?>"><i class="fa fa-circle-o"></i> Inactivas </a></li>
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
               </ul>
             </li> 
 
@@ -175,6 +185,7 @@
                 <span>REGISTRO PROVEEDOR</span>
               </a>
             </li>   
+<<<<<<< HEAD
             <li class="treeview">
               <a href="<?php echo URL::to('administrador'); ?>">
                 <i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -185,11 +196,19 @@
 
             <li class="treeview">
               <a href="<?php echo e(URL::to('password')); ?>">
+=======
+
+ <?php endif; ?>  
+
+            <li class="treeview">
+              <a href="<?php echo e(URL('registrosproveedor/password')); ?>">
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
                 <i class="fa fa-key" aria-hidden="true"></i>
                 <span>CAMBIAR PASSWORD</span>
               </a>
             </li>
 
+<<<<<<< HEAD
 <!--            <li class="treeview">
               <a href="#">
 
@@ -205,6 +224,8 @@
               </ul>
             </li> --!>
  
+=======
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
             <li class="treeview">
               <a href="<?php echo URL::to('perfil'); ?>">
                 <i class="fa fa-user" aria-hidden="true"></i>
@@ -216,6 +237,10 @@
 <?php if(Auth::user()->privilegio == 0): ?>
 
 
+<<<<<<< HEAD
+=======
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f62004a0-541d-482d-93c9-d29cab10189e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
 
             <li class="treeview">
               <a href="<?php echo URL::to('ayuda'); ?>">
@@ -223,7 +248,11 @@
                 <span>AYUDA</span>
               </a>
             </li>   
+<<<<<<< HEAD
 <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f62004a0-541d-482d-93c9-d29cab10189e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+=======
+
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
  <?php endif; ?>      
 
              <!--li>
@@ -374,7 +403,10 @@
 
        <?php echo Html::script('js/sistemalaravel.js'); ?>
 
+<<<<<<< HEAD
        <script src="/js/laravel.js"></script> 
+=======
+>>>>>>> 54629061806168660137dc8c010e5e00e0d396af
 
   </body>
 </html>
